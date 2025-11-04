@@ -4,6 +4,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import mysql.connector
 import threading
+from dotenv import load_dotenv
 from datetime import datetime, timedelta
 import time
 import smtplib
@@ -14,6 +15,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from werkzeug.security import generate_password_hash, check_password_hash
+
+# === Load environment variables ===
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
