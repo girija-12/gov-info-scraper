@@ -1,4 +1,4 @@
-# Government Info Portal
+# 🏛️ Government Info Portal
 
 A full-stack information aggregation platform that automates the process of collecting, managing, and browsing official notices from multiple government or organizational websites.
 It combines a web scraper, Flask-based backend API, and a React frontend to provide a smooth interface for tracking tenders, announcements, and documents across various sources.
